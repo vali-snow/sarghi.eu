@@ -1,0 +1,117 @@
+body{
+    margin:0 auto;
+    background-image: url(img/background_header.jpg);
+}
+header{
+    height: 23%;
+    min-height: 150px;
+    min-width: 700px;
+    margin:0;
+    position: relative;
+    background: linear-gradient(90deg, 
+        rgba(255, 255, 255, 0.7) 0%, 
+        rgba(255, 255, 255, 0.2) 35%, 
+        rgba(255, 255, 255, 0.2) 65%, 
+        rgba(255, 255, 255, 0.7) 100%);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+header div{
+    font-family: 'Stalemate', cursive;
+    text-align: center;
+}
+header div h1{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    
+}
+header div p{
+    margin: 0;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    border: 0.5px solid #ccc;
+    padding:1px
+
+}
+.img-social {
+    border-radius: 50%;
+    width:64px;
+    height:64px;
+}
+article{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:50px;
+    padding-right:50px;
+    height:57%;
+    min-height: 420px;
+    width: 600px;
+    margin:0 auto;
+    background: linear-gradient(90deg, 
+        rgba(255, 255, 255, 0.7) 0%, 
+        rgba(255, 255, 255, 0.99) 25%, 
+        rgba(255, 255, 255, 0.99) 75%, 
+        rgba(255, 255, 255, 0.7) 100%);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px
+}
+#left{
+    float:left;
+    width: 48%;
+    text-align: center;
+    border: 0.5px solid #ccc;
+}
+#left:hover{
+    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.7),
+                -7px 7px 15px -7px rgba(0,0,0,0.7);
+}
+#right{
+    float:right;
+    width: 48%;
+    text-align: center;
+    border: 0.5px solid #ccc;
+}
+#right:hover{
+    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.7),
+                -7px 7px 15px -7px rgba(0,0,0,0.7);
+}
+
+footer{
+    height:10%;
+    min-height: 5px;
+    min-width: 700px;
+    margin:0;
+    background:#ccc;
+    position: relative;
+    background: linear-gradient(90deg, 
+        rgba(150, 150, 150, 0.7) 0%, 
+        rgba(150, 150, 150, 0.99) 35%, 
+        rgba(150, 150, 150, 0.99) 65%, 
+        rgba(150, 150, 150, 0.7) 100%);
+    box-shadow: inset 0 0 1px rgba(150, 150, 150, 0.7);
+}
+footer p{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
