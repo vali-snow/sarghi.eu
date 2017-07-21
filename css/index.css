@@ -1,3 +1,4 @@
+
 body{
     margin:0 auto;
     background-image: url(../img/background_header.jpg);
@@ -92,8 +93,7 @@ nav ul li a:hover:not(.active){
     width:150px;
     height:150px;
     border: 0.5px solid #ccc;
-    padding:1px
-
+    box-shadow: 0px 0px 15px -3px rgba(100, 100, 100, 1);
 }
 .img-social {
     border-radius: 50%;
@@ -103,7 +103,7 @@ nav ul li a:hover:not(.active){
 article{
     padding: 50px 50px 50px 50px;
     height:57%;
-    min-height: 420px;
+    min-height: 385px;
     width: 600px;
     margin:0 auto;
     background: linear-gradient(90deg, 
@@ -123,22 +123,18 @@ section{
     float:left;
     width: 46%;
     text-align: center;
-    border: 0.5px solid #ccc;
+    box-shadow: 0px 0px 15px -3px rgba(100, 100, 100, 1);
 }
-#left:hover{
-    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.7),
-                -7px 7px 15px -7px rgba(0,0,0,0.7);
+#left:hover,#right:hover{
+    box-shadow: 0px 0px 15px -7px rgba(100,100,100,1);
 }
 #right{
     float:right;
     width: 46%;
     text-align: center;
-    border: 0.5px solid #ccc;
+    box-shadow: 0px 0px 15px -3px rgba(100, 100, 100, 1);
 }
-#right:hover{
-    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.7),
-                -7px 7px 15px -7px rgba(0,0,0,0.7);
-}
+
 
 footer{
     width: 700px;
@@ -158,4 +154,43 @@ footer p{
     text-align: center;
     padding-top: 13px;
     padding-bottom: 15px;
+}
+
+.social .link {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: 0.75s;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 0px 3px rgba(100, 100, 100, 1);
+}
+.social .link i {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+    padding: 5px;
+    margin-left: -5px;
+    transform: translateX(5px) rotate(360deg);
+}
+
+.social .link.linkedin {
+    background-color: #0077b5;
+}
+.social .link.gmail {
+    background-color: tomato;
+}
+.social .link.facebook {
+    background-color: #3B5998;
 }
