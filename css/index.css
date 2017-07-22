@@ -1,12 +1,6 @@
-.wrapper{
-	display: table;
-	margin: 0 auto;
-    padding-top: 90px;
-}
 body{
     margin:0 auto;
     background-image: url(../img/background_header.jpg);
-    position: relative;
 }
 
 #wrapper{
@@ -144,9 +138,9 @@ article section{
     box-shadow: 0px 0px 15px -3px rgba(100, 100, 100, 1);
 }
 #center{
-    float:
+	display: table;
 	margin: 0 auto;
-    padding-top: 98px;
+    padding-top: 90px;
 }
 
 
