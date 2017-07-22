@@ -1,3 +1,8 @@
+.wrapper{
+	display: table;
+	margin: 0 auto;
+    padding-top: 90px;
+}
 body{
     margin:0 auto;
     background-image: url(../img/background_header.jpg);
@@ -9,6 +14,8 @@ body{
     position: absolute;
     left:50%;
     transform: translate(-50%, 10%);
+    -webkit-font-smoothing:subpixel-antialiased;
+    -webkit-backface-visibility:hidden; 
 }
 
 header{
@@ -22,10 +29,12 @@ header{
         rgba(255, 255, 255, 0.2) 90%, 
         rgba(255, 255, 255, 0.7) 100%);
     box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.6);
+    
 }
 header div{
     font-family: 'Stalemate', cursive;
     text-align: center;
+    
 }
 header div h1{
     margin: 0;
@@ -105,6 +114,7 @@ article{
     min-height: 385px;
     width: 600px;
     margin:0 auto;
+    postion:relative;
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, 0.7) 0%, 
         rgba(255, 255, 255, 0.99) 10%, 
@@ -132,6 +142,11 @@ article section{
     width: 46%;
     text-align: center;
     box-shadow: 0px 0px 15px -3px rgba(100, 100, 100, 1);
+}
+#center{
+    float:
+	margin: 0 auto;
+    padding-top: 98px;
 }
 
 

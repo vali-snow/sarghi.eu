@@ -1,15 +1,9 @@
-.wrapper{
-	display: table;
-	margin: 0 auto;
-    padding-top: 98px;
-}
 .box{
 	width: 25px;
 	height: 25px;
 	float: left;
-	margin: 0 2px 2px 0;
+	margin: 2px;
 	border-radius: 12.5px;
-    transform: translate(0,0);
     box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.7)
 }
 .clear{
@@ -25,15 +19,15 @@
 .blue{
     background:rgba(30,144,255,0.8);
 }
-.box:not(.white):not(.blue){
+.box.red{
 	transition: all .3s ease;
 	animation: down 10s infinite;
 }
-.box:not(.white):not(.red){
+.box.blue{
 	transition: all .3s ease;
 	animation: up 10s infinite;
 }
-.box:not(.white):hover{
+.box.red:hover,.box.blue:hover{
 	background: gold;
 }
 @keyframes down{
